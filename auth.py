@@ -270,7 +270,9 @@ async def validate_token(token: str):
         "valid": True,
         "user": token_data["user"],
         "client_id": token_data["client_id"],
-        "scopes": token_data["scopes"]
+        "scopes": token_data["scopes"],
+        "repo_name": token_data.get("repo_name", ""),
+        "commit_message": token_data.get("commit_message", "")
     }
 
 @app.get("/")
