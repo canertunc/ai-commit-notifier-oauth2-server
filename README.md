@@ -16,7 +16,7 @@ A complete OAuth2 Authorization Server implementation designed specifically for 
 ## 📁 Project Structure
 
 ```
-active-oauth2-server/
+ai-commit-notifier-oauth2-server/ 
 ├── LICENSE                    
 ├── auth.py                    # Main OAuth2 server implementation
 ├── requirements.txt           # Python dependencies
@@ -51,8 +51,8 @@ active-oauth2-server/
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/canertunc/active-oauth2-server.git
-   cd active-oauth2-server
+   git clone https://github.com/canertunc/ai-commit-notifier-oauth2-server.git
+   cd ai-commit-notifier-oauth2-server
    ```
 
 2. **Install dependencies:**
@@ -273,7 +273,7 @@ This project is licensed under the terms specified in the LICENSE file.
 
 ## 🔗 Related Projects
 
-- **[Active MCP Server](https://github.com/canertunc/active-mcp-server)** - MCP server that uses this OAuth2 server
+- **[Active MCP Server](https://github.com/canertunc/ai-commit-notifier-mcp-server)** - MCP server that uses this OAuth2 server
 - **[Active AI Commit Notifier Server](https://github.com/canertunc/active-ai-commit-notifier-server)** - Webhook processor for commit notifications
 
 ---
